@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8"/>
         <title>Yhteystiedot</title>
-        <body>
-            <h1>Yhteystiedot</h1>
-            <p>tähän tulee yhteystietoja sitten joskus tulevaisuudesa</p>
-        </body>
     </head>
+    <body>
+        <link rel="stylesheet" href="tyylit.css">
+        <h1>Yhteystiedot</h1>
+        <p>tähän tulee yhteystietoja sitten joskus tulevaisuudesa</p>
+    </body>
 </html>
