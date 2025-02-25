@@ -39,7 +39,7 @@ border-style:solid;
     }    
 #etusivu
     {
-position: relative;
+position: absolute;
 top: 10px;
 left: 700px;
     }
