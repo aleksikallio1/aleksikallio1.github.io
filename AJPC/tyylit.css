@@ -45,19 +45,19 @@ left: 700px;
     }
 #kauppa
     {
-position: relative;
+position: absolute;
 top: -40px;
 left: 860px;
     }
 #yhteys
     {
-position: relative;
+position: absolute;
 top: -90px;
 left: 1020px;
     }
 #logo
     {
-position: relative;
+position: absolute;
 top: 6px;
 left: 840px;
     }
