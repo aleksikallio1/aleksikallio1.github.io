@@ -35,4 +35,62 @@ div
     {       
 background-color:#01EA24;
 display: block;
+border-style:solid;
     }    
+#etusivu
+    {
+position: relative;
+top: 10px;
+left: 700px;
+    }
+#kauppa
+    {
+position: relative;
+top: -40px;
+left: 860px;
+    }
+#yhteys
+    {
+position: relative;
+top: -90px;
+left: 1020px;
+    }
+#logo
+    {
+position: relative;
+top: 6px;
+left: 840px;
+    }
+#kivijalka
+    {
+position:relative;
+top: -256px;
+left: 980px;        
+    }
+#tieto
+    {
+position:relative;
+top: -60px;
+left: 160px;        
+    }
+#ota
+    {
+position:relative;
+top: -240px;
+left: 160px;        
+    }        
+#maps
+    {
+position:relative;
+bottom: 408px;
+left: 1030px;        
+    }
+footer
+    {
+position:fixed;
+left: 0px;
+bottom: 0px;
+width:100%;
+height: 60px;
+background-color:#01EA24        
+    }
