@@ -9,10 +9,17 @@ body
 background-color: #637E56;
     }
 
+a
+    {
+font-family: 'Jura';
+font-weight: bold;
+font-size:38px;
+color:#0B111C;    
+    }
 header
     {
 font-family:'Lilita One';
-font-size:32;
+font-size:38px;
 color:#0B111C;
     }
 
@@ -20,11 +27,12 @@ p
     {
 font-family: 'Jura';
 font-weight: bold;
-font-size:24;
+font-size:28px;
 color:#0B111C;
     }
 
 div
-    {
-color:#01EA24;
+    {       
+background-color:#01EA24;
+display: block;
     }    
