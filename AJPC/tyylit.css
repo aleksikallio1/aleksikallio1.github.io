@@ -8,13 +8,12 @@ body
     {
 background-color: #637E56;
     }
-
 a
     {
 font-family: 'Jura';
 font-weight: bold;
 font-size:38px;
-color:#0B111C;    
+color:#0B111C;
     }
 header
     {
@@ -36,25 +35,27 @@ div
 background-color:#01EA24;
 display: block;
 border-style:solid;
+    }
+nav
+    {
+position: absolute;
+top:220px;
+left:720px;        
+    } 
+nav a
+    {
+background-color: #01EA24;
+border: 2px solid #0B111C;
+display:inline;
+font-family: Jura;
+color:#0B111C;
+    }
+nav a:hover
+    {
+color:#0B111C;
+background-color: #e7f0e8;
     }    
-#etusivu
-    {
-position: absolute;
-top: 220px;
-left: 700px;
-    }
-#kauppa
-    {
-position: absolute;
-top: 220px;
-left: 860px;
-    }
-#yhteys
-    {
-position: absolute;
-top: 220px;
-left: 1020px;
-    }
+
 #logo
     {
 position: absolute;
@@ -78,13 +79,13 @@ left: 160px;
 position:absolute;
 top: 500px;
 left: 160px;        
-    }        
-#maps
+    }
+#kartta
     {
 position:absolute;
-bottom: 80px;
-left: 1030px;        
-    }
+bottom: 120px;
+left: 1380px;
+    }        
 footer
     {
 position:fixed;
