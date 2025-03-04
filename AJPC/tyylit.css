@@ -97,6 +97,68 @@ footer {
     text-align: center;
 }
 
+/* Kaupan Tyylit */
+#kauppa {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tuote Osio */
+.product-grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Tuotteiden Laatikot */
+.product {
+    background-color: #01EA24;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+/* CTA laatikko */
+.CTA {
+    display: block;
+    background-color: #01EA24;
+    border: 2px solid #0B111C;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: #0B111C;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* CTA efekti */
+.CTA:hover {
+    background-color: #0B111C;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* CTA typografia */
+.CTA h1, .CTA p {
+    margin: 0;
+    font-family: 'Lilita One', sans-serif;
+}
+
+/* CTA typografia */
+.CTA p {
+    margin: 0;
+    font-family: 'Jura', sans-serif;
+}
+
 /* Skaalautuva Media */
 
 /* Mobiilikoko */
@@ -111,6 +173,9 @@ footer {
         display: block;
         margin: 5px 0;
     }
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Kannettava Tietokone Koko */
@@ -121,11 +186,17 @@ footer {
     #ota {
         grid-column: span 2;
     }
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* Työpöytä (1920px) */
 @media (min-width: 1241px) {
     #container {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
