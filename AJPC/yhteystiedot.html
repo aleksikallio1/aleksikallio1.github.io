@@ -1,42 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Yhteystiedot</title>
+        <link rel="stylesheet" href="tyylit.css">
     </head>
     <body>
-        <link rel="stylesheet" href="tyylit.css">
-        <img id ="logo" src="logo.png" alt="Yrityksen Logo" width="200" height="200">
-        
-        <nav>
-        <a href="index.html">Etusivu</a>
-        <a href="kauppa.html">Kauppa</a>
-        <a href="yhteystiedot.html">Yhteystiedot</a>
-        </nav>
-        
-        <div id="tieto" style="width:800px; height: 190px;">
-        <h1>Yhteystietomme</h1>
-        <p>Tältä sivulta löydät puhelinnumeromme sekä sähköpostiosoitteemme jos tilauksessa on mennyt jotain pieleen tai haluat antaa muuten vain palautetta! </p>
-        </div>
-        
-        <div id="kivijalka" style="width:800px; height: 190px;">
-        <h2>Kivijalkamyymälämme</h2>
-        <p>Myymälämme sijaitsee Helsingin ytimessä, Ruoholahden alueella kulkuyhteyksien läheisyydessä.
-            Osoitteemme on Ruoholahdenkatu 13, 00150 Helsinki.
-        </p>
-        </div>
+        <header>
+            <img id="logo" src="logo.png" alt="Yrityksen Logo" width="200" height="200">
+            <nav>
+                <a href="index.html">Etusivu</a>
+                <a href="kauppa.html">Kauppa</a>
+                <a href="yhteystiedot.html">Yhteystiedot</a>
+            </nav>
+        </header>
 
-        <div id="ota" style="width:280px">
-        <h3>Ota Yhteyttä</h3>
-        <p>0407627432 AJPC@hotmail.com</p>
-        </div>
+        <main id="container">
+            <section id="tieto">
+                <h1>Yhteystietomme</h1>
+                <p>Tältä sivulta löydät puhelinnumeromme sekä sähköpostiosoitteemme, jos tilauksessa on mennyt jotain pieleen tai haluat antaa muuten vain palautetta!</p>
+            </section>
 
-        <iframe id="kartta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.9278217246595!2d24.92449187738855!3d60.16537374382077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a3569d1e839%3A0x1ce04646256bc1a7!2sRuoholahdenkatu%2014%2C%2000180%20Helsinki!5e0!3m2!1sfi!2sfi!4v1740672564007!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
+            <section id="kivijalka">
+                <h2>Kivijalkamyymälämme</h2>
+                <p>Myymälämme sijaitsee Helsingin ytimessä, Ruoholahden alueella kulkuyhteyksien läheisyydessä. Osoitteemme on Ruoholahdenkatu 13, 00150 Helsinki.</p>
+            </section>
+
+            <section id="ota">
+                <h3>Ota Yhteyttä</h3>
+                <p>
+                    <a href="tel:0407627432">040 762 7432</a><br>
+                    <a href="mailto:AJPC@hotmail.com">AJPC@hotmail.com</a>
+                </p>
+            </section>
+
+            <iframe id="kartta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.9278217246595!2d24.92449187738855!3d60.16537374382077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a3569d1e839%3A0x1ce04646256bc1a7!2sRuoholahdenkatu%2013%2C%2000150%20Helsinki!5e0!3m2!1sfi!2sfi!4v1740672564007!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </main>
 
         <footer>
-        <p>© COPYRIGHT AJPC 2025</p>   
+            <p>© COPYRIGHT AJPC 2025</p>   
         </footer>
     </body>
 </html>
