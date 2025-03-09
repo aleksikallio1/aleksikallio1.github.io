@@ -10,7 +10,21 @@
 }
 
 /* Sivuston Tyyli */
-body {
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#etusivu {
+    background-image: url('store_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body:not(#etusivu) {
+    background: none;
+
     font-family: 'Jura', sans-serif;
     background-color: #637E56;
     margin: 0;
@@ -90,11 +104,13 @@ p{
 
 /* Footer */
 footer {
-    background-color: #01EA24;
+    background: #01EA24;
     color: #0B111C;
-    padding: 15px;
-    margin-top: 20px;
     text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
 }
 
 /* Kaupan Tyylit */
